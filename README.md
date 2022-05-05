@@ -8,7 +8,7 @@ How to run:<br />
 You can run this code on online gdb platform https://www.onlinegdb.com/online_c++_compiler <br />
 Paste the content of MerkleTree.cpp under main.cpp of the online compiler.<br />
 Upload sha256.cpp and sha256.h in the same project.<br />
-Click on the run button and enter your inputs in the interactive console.<br />
+Select the language C++/C++17 and click on the run button and enter your inputs in the interactive console.<br />
 
 
 Input:<br />
