@@ -33,7 +33,11 @@ int main()
     string input;
     cout << "No. of strings" << endl;
     cin >> n;
-
+    if (n <= 0)
+    {
+        cout << "Type positive number only" << endl;
+        exit(0);
+    }
     cout << "Enter strings..." << endl;
     for (i = 0; i < n; i++)
     {
@@ -97,7 +101,7 @@ int main()
         cout << endl;
     }
 
-    //Creating the Merkle Tree
+    // Creating the Merkle Tree
     TreeNode *Merkle_Root;
     queue<TreeNode *> q;
     for (i = 0; i < hashes.size(); i++)
@@ -139,12 +143,12 @@ int main()
         q.push(nullptr);
     }
 
-    //Printing the final root hash
+    // Printing the final root hash
     cout << "\n#Final Root Hash" << endl;
     cout << Merkle_Root->hashval << endl;
     cout << "\n";
 
-    //Printing the tree
+    // Printing the tree
     cout << "Tree Pre-Order Traversal" << endl;
     TraverseTree(Merkle_Root);
 
