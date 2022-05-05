@@ -1,9 +1,15 @@
 # Merkle-Tree-Implementation
 
 Requirements:<br />
-Make sure to have sha256.cpp and sha256.h files in the same project/folder where your MerkleTree.cpp file is.<br />
-You can download those two files from https://github.com/stbrumme/hash-library<br />
-Compile and run the MerkleTree.cpp file.<br />
+Make sure to have sha256.cpp and sha256.h files to run the project.<br />
+You can download those two files from https://github.com/stbrumme/hash-library .<br />
+
+How to run:<br />
+You can run this code on online gdb platform https://www.onlinegdb.com/online_c++_compiler .<br />
+Paste the content of MerkleTree.cpp under main.cpp of the online compiler.<br />
+Upload sha256.cpp and sha256.h in the same project.<br />
+Click on the run button and enter your inputs in the interactive console.<br />
+
 
 Input:<br />
 Mention no. of strings that you have to provide in the input.<br />
