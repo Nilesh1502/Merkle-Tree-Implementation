@@ -62,7 +62,7 @@ int main()
     int flag = 1;
     int level = 1;
 
-    while (flag)
+    while (flag && v.size() != 1)
     {
         int count = 0;
         temp.clear();
